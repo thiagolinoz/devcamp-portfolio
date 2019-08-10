@@ -21,8 +21,8 @@ default: &default
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   host: localhost
-  username: thiagolinoz
-  password: root
+  username: <%= ENV['USER']%>
+  password: <%= ENV['PG_PASS']%>
 
 development:
   <<: *default
@@ -84,5 +84,5 @@ test:
 production:
   <<: *default
   database: DevcampPortfolio_production
-  username: thiagolinoz
+  username: <%= ENV['USER']%>
   password: <%= ENV['DEVCAMPPORTFOLIO_DATABASE_PASSWORD'] %>
