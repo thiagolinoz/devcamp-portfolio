@@ -61,4 +61,4 @@ gem 'bootstrap', '~> 4.3.1'
 
 gem 'jquery-rails'
 
-gem 'linoz_view_tool', git: 'https://github.com/thiagolinoz/linoz_view_tool'
+gem 'linoz_view_tool', '~> 0.1.0'
