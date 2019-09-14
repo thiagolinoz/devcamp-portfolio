@@ -60,3 +60,5 @@ gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'bootstrap', '~> 4.3.1'
 
 gem 'jquery-rails'
+
+gem 'linoz_view_tool', git: 'https://github.com/thiagolinoz/linoz_view_tool'

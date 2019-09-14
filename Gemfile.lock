@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/thiagolinoz/linoz_view_tool
+  revision: 93f33629db661a46bed982b45e296730a93de648
+  specs:
+    linoz_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -214,6 +220,7 @@ DEPENDENCIES
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   jquery-rails
+  linoz_view_tool!
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
   pry-byebug
