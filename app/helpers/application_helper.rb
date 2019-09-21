@@ -17,6 +17,6 @@ module ApplicationHelper
 	end
 
   def copyright_generator
-    LinozViewTool::Renderer.copyright 'Thiago Lino', 'All rights reserved'
+    LinozViewTool::Renderer.copyright "Nina's Enterprise", 'All rights reserved'
   end
 end
