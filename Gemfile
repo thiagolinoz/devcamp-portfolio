@@ -67,3 +67,9 @@ gem 'linoz_view_tool', '~> 0.1.0'
 
 # petergate for authorization
 gem 'petergate', '~> 2.0', '>= 2.0.1'
+
+# font-awesome-rails
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
+
+# kaminari for paginator
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
