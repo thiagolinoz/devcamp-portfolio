@@ -19,6 +19,11 @@
   </tbody>
 </table>
 
+<h4>Topics</h4>
+<% @side_bar_topics.each do |topic| %>
+  <p><%= link_to topic.title, topic_path(topic) %></p>
+<% end %>
+
 <br>
 
 <%= link_to "New Blog", new_blog_path if logged_in?(:site_admin) %>
