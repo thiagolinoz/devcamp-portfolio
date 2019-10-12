@@ -2,22 +2,14 @@
 
 <h1>Blogs</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Body</th>
-      <th>Date</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
     <%= render @blogs %>
 
     <%= paginate @blogs %>
-  </tbody>
-</table>
+
+<h4>Topics</h4>
+<% @side_bar_topics.each do |topic| %>
+  <p><%= link_to topic.title, topic_path(topic) %></p>
+<% end %>
 
 <br>
 
